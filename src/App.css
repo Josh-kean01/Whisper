@@ -1,6 +1,19 @@
 .home-page {
-  background-color: #8580bf;
+  /* background-color: #8580bf; */
   font-family: "imprma", cursive;
+}
+
+.hero {
+  background: url("./assets/images/whisper-hero-bg.png");
+  background-size: cover;
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+    background-size: 50% 100%;
+  }
 }
 
 p {
